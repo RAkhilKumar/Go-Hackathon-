@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+   
+    background-color: white;
+    color: #333;
+    
+}
+.container {
+    height:120vh ;
+    width: 100%;
+    background-image: url(../public/images/contact-bg-cutrectangle.png);
+    background-repeat: no-repeat;
+    background-position: 10px 130px;
+    background-size: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.diagonal-bg {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #fff 45%, #0040ff 40%);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #0040ff;
+    margin-left: -100px;
+  }
+
+
+
+.training-info {
+    background-color: white;
+    padding: 20px 0;
+
+}
+.trainingpython {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    font-size: 30px;
+    position: absolute;
+    top: 9rem;
+    left: 20px;
+
+}
+
+
+.contact-us {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact-us p {
+    display: flexbox;
+    margin: auto;
+    text-align: center;
+    max-width: 50rem;
+    margin-bottom: 40px;
+    
+}
+
+.contact-form-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.contact-form,
+.callback {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+.callback {
+    margin-bottom: 50px;
+    padding: 30px;
+    color: #fff;
+    width: 45%;
+    text-align: left;
+    padding-left: 90px;
+}
+.contact-form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 45%;
+}
+
+.contact-form h3{
+    background: linear-gradient(to right, rgb(37, 0, 93), rgb(114, 189, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.contact-form h3,
+.callback h3 {
+    
+    margin-bottom: 20px;
+}
+
+.contact-form input{
+    width: 40%;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form textarea {
+    width: 81%;
+    padding: 20px 10px 70px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056d2;
+}
+
+.callback ul {
+    
+    list-style: none;
+}
+
+.callback ul li {
+    margin-bottom: 10px;
+}
+.callback ul li span {
+    margin-top: 500px;
+}
+
+.callback .social-media a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+/*
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-left: 0;
+    }
+
+    .program1 p {
+        color: white;
+        height: 50px;
+        padding: 0 50px;
+    }
+    
+
+    footer .address,
+    footer .footer-logo {
+        margin-left: 0;
+        position: static;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+    .footer-column .social-icons{
+        min-width: 100%;
+        text-align: center;
+        margin-left: 38%;
+    }
+}
+
+@media (max-width: 608px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-left: 0;
+    }
+
+    .program1 p {
+        color: white;
+        height: 50px;
+        padding: 0 50px;
+        margin-top: 5rem;
+    }
+    
+
+    footer .address,
+    footer .footer-logo {
+        margin-left: 0;
+        position: static;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+    .footer-column .social-icons{
+        min-width: 100%;
+        text-align: center;
+        margin-left: 38%;
+    }
+    .contact-form-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 70px;
+        
+    }
+}
+*/

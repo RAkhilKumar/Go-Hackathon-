@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="workshop.css">
+    <title> Up Coming Workshop</title>
+</head>
+
+<body>
+    <div id="navbar-placeholder"></div>
+    <div class="row">
+        <div class="training">
+            <a href="../Home/hero-section.html" class="link-black"><i class='bx bx-chevron-left '></i></a>
+            <span>Workshops</span>
+        </div>
+    </div>
+    <div class="sentence">
+        <p class="para1"><span style="font-weight:bold; font-size: 4vw;">U</span>nlock your potential and hone your skills with our dynamic workshops designed to inspire and empower.</p>
+        <img src="../Public/images/workshop.svg" alt="picture" class="right">
+    </div>
+
+    <div class="button-box">
+        <div id="btn"></div>
+        <a href="workshop.html"><button type="button" class="toggle-btn" onclick="leftClick()">On Going Workshops</button></a>
+        <a href="out workshop.html"><button type="button" class="toggle-btn" onclick="rightClick()">Up Coming Workshops</button></a>
+    </div>
+    <div class="container">
+        <div class="element">
+            <a ><img src="../Public/images/cloud.svg"></a>
+            <h3>Cloud Computing</h3>
+            <p>Instructor:- <span>Suresh</span></p>
+              <p>  Starts From:-<span> 01 May 2024</span></p>
+               <p> Duration:-<span> 6 Weeks</span></p>
+        </div>
+        <div class="element">
+            <a ><img src="../Public/images/ai 1 (1).svg"></a>
+            <h3>Artifical Intelligence</h3>
+            <p>Instructor:- <span>Suresh</span></p>
+                <p>Starts From:- <span> May 2024</span></p>
+               <p> Duration:- <span>6 Weeks</span></p>
+        </div>
+        <div class="element">
+            <a ><img src="../Public/images/cybersecurity (1).svg"></a>
+            <h3>Cyber Security</h3>
+            <p>Instructor:- <span>Geetha</span></p>
+                <p>Starts From:-<span> 20 May 2024</span></p>
+               <p> Duration:- <span>4 Weeks</span></p>
+        </div>
+       
+    </div>
+    <div class="heading">
+        <h3>Benefits of Attending Our Workshops:</h3>
+        <ul>
+        <li>Gain valuable skills and knowledge.</li>
+          <li> Learn from experienced instructors and industry professionals.</li>
+          <li>  Network with other participants and expand your professional circle.</li>
+           <li> Receive a certificate of completion</li>
+           </ul>
+    </div>
+    <h2 class="register-btn" style="background-color: #0071D1; width: 100px; border-radius: 50px;">FAQs</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(0)">
+                    Why do I register for a Workshop?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Fill out the registration form on our website.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(1)">
+                    Are there any preirequisites for attending Workshops?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Prerequisites vary depending on the workshop. Please check the workshop details for specific requirements.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(2)">
+                    Can I get a refund if I need to cancel my registration?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Refund policies vary depending on the workshop.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(3)">
+                    What is the cancellation pollicy?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Cancellations made [Number] days prior to the workshop will receive a full refund.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(4)">
+                    Will I receive a certificate of completion after attending a Workshop?
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, participants who successfully complete a workshop will receive a certificate of completion.</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer-placeholder"></div>
+   
+        <script src="../Public/navbar.js"></script>
+        <script src="../Public/footer.js"></script>
+    
+    <script src="workshop.js"></script>
+    </body>
+    </html>

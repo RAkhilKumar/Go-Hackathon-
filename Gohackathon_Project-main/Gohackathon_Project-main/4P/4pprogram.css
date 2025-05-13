@@ -1,0 +1,140 @@
+
+.program-link {
+    
+    margin: 15px auto;
+    padding: 0 20px;
+    font-size: 30px;
+    
+}
+
+
+
+.success-info {
+    background-color: #0071D1;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.register-btn {
+    background-color: #ffffff;
+    color: #0071D1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    transition: .5s;
+    margin-top: 3rem;
+}
+
+.register-btn:hover {
+    background-color: #71b4ee;
+    color: white;
+}
+
+.our-programs {
+    text-align: center;
+}
+
+.program {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 30px;
+    gap: 1.5rem;
+}
+
+.program h2 {
+    font-size: 20px;
+}
+
+.program .program1 {
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    text-align: center;
+    padding: 25px;
+}
+
+.program .program1 p {
+    height: 80px;
+}
+
+.program .program1 a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0071D1;
+    padding: 2rem;
+}
+
+.program .program1 img {
+    width: 50%;
+}
+
+.choose-us {
+    text-align: center;
+}
+
+.us-info {
+    background-color: #E4EBF4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 30px;
+    gap: 1.5rem;
+}
+
+.us-info .info-icon {
+    font-size: 50px;
+    color: #2563EB;
+}
+
+.us-info .info1 {
+    font-size: 15px;
+    text-align: center;
+    padding: 25px;
+}
+
+.us-info .info1 a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0071D1;
+}
+
+/*
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-left: 0;
+    }
+
+    footer .address,
+    footer .footer-logo {
+        margin-left: 0;
+        position: static;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+    .footer-column .social-icons{
+        min-width: 100%;
+        text-align: center;
+        margin-left: 38%;
+    }
+}
+*/

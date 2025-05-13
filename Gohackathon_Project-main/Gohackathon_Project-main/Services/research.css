@@ -1,0 +1,139 @@
+body{
+    padding:0;
+    justify-content: center;
+    margin:0;
+  
+}
+
+*{
+  font-family: Arial, sans-serif;
+}
+
+
+
+.main{position:relative;
+  display:flex;
+    flex-direction: column;
+    gap:5vw;
+    align-items: center;
+    justify-content: center;
+    padding:0;margin:0;
+    width:100%;
+    
+}
+.main img{
+  width:70%;
+}
+.main div{
+  display:flex;
+ justify-content: center;
+  align-items: center;
+}
+.main div h1{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  margin:0;padding:0;
+ top:72%;
+ font-size:2.4vw;
+}
+.icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+width: 100%;
+    margin:10vw 0;padding:0;
+}
+.icons img{
+    width:100%;
+}
+.content{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin:0;padding:0;
+    width: 20%;
+}
+.vision {
+    top: 43%;
+    left: 11.5%;
+   
+}
+
+.mission {
+    top: 43%;
+    left: 38.5%;
+   
+}
+
+.values {
+    top: 43%;
+    left: 67%;
+    
+}
+.importance{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    padding:2vw;
+    align-items: center;
+    margin-bottom: 10vw;;
+}
+.importance img{
+    height:30vw;
+   width:40%;
+
+}
+.importance p{line-height: 3vw;font-size: 1.7vw;
+width:50%;
+}
+h1{
+text-align: center;
+}
+hr{
+    width:60vw;
+    border:0.1vw solid black;
+}
+.benefits{ margin-top:4vw;
+    margin-bottom:10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.link-black {
+    color:black;
+    font-size: 3vw;
+}
+.training{
+    font-size: 4vw;
+    text-decoration: none;
+    
+    color:black;
+   margin-left:2vw;
+    margin-bottom:3vw;
+}
+.training span{text-wrap: nowrap;
+    color: #0071D1;
+   
+    font-weight:600;
+    font-size: 2vw;
+   
+    margin-top: 1.3vw;
+}
+.benefits img{
+  width:70%;
+}
+/*@media (max-width: 768px) {
+    .icons {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .content {
+      width: 80%; 
+      margin-bottom: 5vw; 
+    }
+  }*/

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+   margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+
+.aboutus{
+    font-size: 2vw;
+    text-decoration: none;
+    position: relative; 
+    color:black;
+    display: flex;
+
+}
+.aboutus span{
+    color: #0071D1;
+    font-family:poppins;
+    font-weight:600;
+    font-size: 3vw;
+    
+   
+}
+
+
+.sentence{
+    display:flex;
+   
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    cursor: pointer;
+    
+
+}
+.sentence img{
+    height:35vw;
+    padding: 0;
+    margin:0;    
+    
+}
+.parabtn{
+    align-content: center;
+}
+.para1{margin:0vw 0vw 0 4vw;padding:0;
+    font-size: 1.7vw;
+    
+}
+.btn-container{
+    margin:4vw 0 0vw 4.3vw;
+    border: none;
+    background: #0071D1;
+    font-size: 1.5vw;
+    padding:1vw 3vw;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.button:hover{
+    border: .1rem solid red;
+    background: white;
+    color: red;
+}
+
+    
+.info h3{
+    text-align: center;
+    font-size: 3vw;
+    justify-content: center;
+    margin-top:4vw;
+}
+.info1{
+    display:flex;
+    flex-direction: row;
+}
+.info1 img{
+    margin: 3vw 5vw;
+    height:20vw;
+}
+.info1 p{
+    font-size: 1.5vw;
+align-content: center;
+}
+
+h4{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin-top:8vw;
+}
+.container{
+   justify-content: center;
+    margin:4vw;
+    display:flex;
+    gap:0.5vw;
+    height:20vw;
+}
+.element{
+    box-shadow:0 0.02vw 0.2vw rgba(0,0,0,0.099);
+    margin-left:1vw;
+    text-align:center;
+    border-radius: 0.3vw;
+    height:100%;
+}
+.element img{
+    width:100%;
+    height:69%;
+    border-radius: 0.5vw;
+    margin-left:0px;
+    margin-bottom:1vw;
+}
+.element h3{padding:0;
+    font-size:  2vw;
+    margin:0 2vw 0px 2vw;
+    text-align: left;
+}
+.element p{
+   
+    font-size:  1.5vw;
+    margin:0 2vw 0px 2vw;
+    text-align: left;
+}
+.row{
+    display:flex;
+    padding-left: 3em;
+    padding-top: 2em;
+    color: #0071D1;
+}
+.partners-section {
+    text-align: center;
+    padding: 5vw 0;
+    background-color: #fff;
+}
+
+.partners-section h2 {
+    margin-bottom: 5vw;
+    font-size: 2.4vw;
+    color: #333;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.carousel-inner {
+    height:10vw;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner img {
+    width: 33.33%;
+    height: auto;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vw;
+}
+
+.carousel-indicators button {
+    border: none;
+    width: 1.2vw;
+    height: 1.2vw;
+    margin: 0 0.5vw;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-indicators button.active {
+    background-color: #007bff;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-left: 0;
+    }
+
+    .program1 p {
+        color: white;
+        height: 50px;
+        padding: 0 50px;
+    }
+    
+
+    footer .address,
+    footer .footer-logo {
+        margin-left: 0;
+        position: static;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+    .footer-column .social-icons{
+        min-width: 100%;
+        text-align: center;
+        margin-left: 38%;
+    }
+}
+@media (max-width: 608px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-left: 0;
+    }
+
+    .program1 p {
+        color: white;
+        height: 50px;
+        padding: 0 50px;
+        margin-top: 5rem;
+    }
+    
+
+    footer .address,
+    footer .footer-logo {
+        margin-left: 0;
+        position: static;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+    .footer-column .social-icons{
+        min-width: 100%;
+        text-align: center;
+        margin-left: 38%;
+    }
+}
